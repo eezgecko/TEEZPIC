@@ -9,8 +9,7 @@ import requests
 
 # 設置 Line Bot 相關資訊
 line_bot_api = LineBotApi('2003642983')
-handler = WebhookHandler('
-fc244f1d46aaba360981de50983f6e55')
+handler = WebhookHandler('fc244f1d46aaba360981de50983f6e55')
 
 # 設置 Google Sheets API 的認證信息
 scope = ['https://www.googleapis.com/auth/spreadsheets.readonly']
